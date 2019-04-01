@@ -4,11 +4,35 @@
              xmlns:local="clr-namespace:Project"
              x:Class="Project.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <!--  add elements on the grid  -->
+        <Label Text="Best Unit Converter" HorizontalOptions="Center" Grid.Row="0" />
+
+        <StackLayout>
+            <Button x:Name="yurt" Text="Home" HorizontalOptions="Start" Grid.Row="1"  FontSize="20"  BorderRadius="20"  Margin="80,0,40,0" BackgroundColor="DarkOrange"/>
+            <StackLayout>
+
+
+                <Button x:Name="money" Text="Money Converter" HorizontalOptions="Center" Grid.Row="1" Clicked="Money_Clicked" />
+
+                <Button x:Name="time" Text="Time Converter" HorizontalOptions="Center" Grid.Row="2" Clicked="Time_Clicked" />
+
+                <Button x:Name="speed" Text="Speed Converter" HorizontalOptions="Center" Grid.Row="3" Clicked="Speed_Clicked" />
+
+                <Button x:Name="temperture" Text="Temperture Converter" HorizontalOptions="Center" Grid.Row="4" Clicked="Temperture_Clicked"/>
+
+                <Button x:Name="distance" Text="Distance Converter" HorizontalOptions="Center" Grid.Row="5" Clicked="Distance_Clicked" />
+
+            </StackLayout>
+        </StackLayout>
+    </Grid>
 
 </ContentPage>

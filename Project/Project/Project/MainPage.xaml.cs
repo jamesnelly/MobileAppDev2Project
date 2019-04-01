@@ -13,5 +13,30 @@ namespace Project
         {
             InitializeComponent();
         }
+
+        private void Money_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MoneyPage());
+        }
+
+        private void Time_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TimePage());
+        }
+
+        private void Speed_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SpeedPage());
+        }
+
+        private void Temperture_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TempPage());
+        }
+
+        private void Distance_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DistancePage());
+        }
     }
 }

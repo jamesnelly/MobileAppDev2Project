@@ -10,8 +10,8 @@ namespace Project
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            // creates fat grey square over main page
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
