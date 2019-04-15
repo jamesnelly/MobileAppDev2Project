@@ -14,3 +14,4 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project\o
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project\obj\Debug\netstandard2.0\SpeedPage.xaml.g.cs
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project\obj\Debug\netstandard2.0\TempPage.xaml.g.cs
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project\obj\Debug\netstandard2.0\TimePage.xaml.g.cs
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project\obj\Debug\netstandard2.0\Project.csprojAssemblyReference.cache

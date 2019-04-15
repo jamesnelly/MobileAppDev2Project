@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Project
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class MoneyPage : ContentPage
 	{
-		public MoneyPage ()
-		{
-			InitializeComponent ();
-		}
-	}
+
+        public MoneyPage()
+        {
+            InitializeComponent();
+            BindingContext = new Money();
+        }
+
+
+    }
 }
