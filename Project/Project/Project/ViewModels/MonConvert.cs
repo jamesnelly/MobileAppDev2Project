@@ -29,10 +29,9 @@ namespace Project
                 {
                     _SelectedCurrency = value;
                     MYCurency = "You Selected : " + _SelectedCurrency.Name;
-                    Convert = "you selected : " + _SelectedCurrency.Rate;
-                    Result = (Input * _SelectedCurrency.Rate);
+                  Result = (Input * _SelectedCurrency.Rate);
                 }
-            }
+            }  
         }
 
         private string _MYCurrency { get; set; }

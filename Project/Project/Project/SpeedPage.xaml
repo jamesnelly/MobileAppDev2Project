@@ -1,12 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Project.SpeedPage">
+             x:Class="Project.SpeedPage" Title="                        Speed Conversion"  BackgroundImage="road.jpg">
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to speed page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="Black">
+            <Grid>  
+               
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+               
+
+                    <Label Text="Kilometre's" Grid.Row="0" HorizontalOptions="Start" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
+                    <Label Text="Mile's" Grid.Row="0" HorizontalOptions="Center" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
+                    <Entry Text="{Binding kmtomile}"  BackgroundColor="White" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start"  WidthRequest="100" Margin="120,0,0,0"/>
+                    <Label Text="{Binding kmtoMileAnswer}"  BackgroundColor="Yellow"  Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" WidthRequest="100" Margin="120,0,0,0"  HeightRequest="40"/>
+
+                    <Label Text="Mile's" Grid.Row="2" HorizontalOptions="Start" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
+                    <Label Text="Kilometre's" Grid.Row="2" HorizontalOptions="Center" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
+                    <Entry Text="{Binding miletokm}"  BackgroundColor="White" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start"  WidthRequest="100" Margin="120,0,0,0"/>
+                    <Label Text="{Binding MileToKMAnswer}"  BackgroundColor="Yellow"  Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" WidthRequest="100" Margin="120,0,0,0"  HeightRequest="40" />
+
+                <Label Text="Reset values by Entering (0)" Grid.Row="4" HorizontalOptions="Center" Margin="15,10,0,10" TextColor="Yellow" FontAttributes="Bold"/>
+
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

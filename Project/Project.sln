@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Android", "Project\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.UWP", "Project\Project.UWP\Project.UWP.csproj", "{98C08ED2-0744-4133-B037-FF893AA359A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project\Project.csproj", "{69771100-3092-424D-BBEC-981DA6BF11DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project", "Project\Project\Project.csproj", "{69771100-3092-424D-BBEC-981DA6BF11DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
