@@ -1,6 +1,8 @@
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Project.Android.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Java.Interop.dll
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Lamp.Plugin.Abstractions.dll
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Lamp.Plugin.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Project.dll
@@ -31,6 +33,9 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.A
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.Resources.ResourceManager.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
@@ -40,6 +45,5 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.A
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.Transactions.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
-C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\System.Web.Services.dll
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Mono.Security.dll

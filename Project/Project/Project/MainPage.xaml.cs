@@ -34,9 +34,10 @@ namespace Project
             Navigation.PushAsync(new TempPage());
         }
 
-        private void Distance_Clicked(object sender, EventArgs e)
+        private void Torch_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new DistancePage());
+            Navigation.PushAsync(new Torch());
         }
+
     }
 }

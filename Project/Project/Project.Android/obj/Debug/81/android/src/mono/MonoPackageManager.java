@@ -108,6 +108,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Project.Android.dll" comes first in this list. */
 		"Project.Android.dll",
 		"FormsViewGroup.dll",
+		"Lamp.Plugin.Abstractions.dll",
+		"Lamp.Plugin.dll",
 		"Project.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

@@ -298,3 +298,7 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.U
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\Lamp.Plugin.Abstractions.dll
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\Lamp.Plugin.Abstractions.pdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\Lamp.Plugin.dll
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\Lamp.Plugin.pdb

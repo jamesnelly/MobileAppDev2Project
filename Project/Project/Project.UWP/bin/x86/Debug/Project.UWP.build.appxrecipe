@@ -28,6 +28,12 @@
     <AppxPackagedFile Include="C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\Project.UWP.exe">
       <PackagePath>entrypoint\Project.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\james\.nuget\packages\kphillpotts.lamp.plugin\1.0.0.1\lib\win8\Lamp.Plugin.Abstractions.dll">
+      <PackagePath>Lamp.Plugin.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\james\.nuget\packages\kphillpotts.lamp.plugin\1.0.0.1\lib\win8\Lamp.Plugin.dll">
+      <PackagePath>Lamp.Plugin.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\james\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>

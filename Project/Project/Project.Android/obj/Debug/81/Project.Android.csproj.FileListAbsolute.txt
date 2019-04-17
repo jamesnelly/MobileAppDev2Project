@@ -44,6 +44,7 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.A
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\System.ComponentModel.Composition.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\System.Net.Http.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\System.Runtime.Serialization.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\System.ServiceModel.Internals.pdb
@@ -52,7 +53,6 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.A
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\System.Transactions.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\System.IO.Compression.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\System.IO.Compression.FileSystem.pdb
-C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\System.ComponentModel.Composition.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\Mono.Security.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Project.Android.pdb
@@ -66,6 +66,7 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.A
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\System.Net.Http.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
@@ -74,11 +75,16 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.A
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\System.Transactions.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\System.IO.Compression.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.pdb
-C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Mono.Security.pdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\Lamp.Plugin.Abstractions.dll.mdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\Lamp.Plugin.dll.mdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\Project.dll.mdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Lamp.Plugin.Abstractions.dll.mdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Lamp.Plugin.dll.mdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Project.dll.mdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Lamp.Plugin.Abstractions.dll.mdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Lamp.Plugin.dll.mdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Project.dll.mdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Mono.Android.pdb
@@ -102,4 +108,6 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.A
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Lamp.Plugin.Abstractions.dll.mdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Lamp.Plugin.dll.mdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Project.dll.mdb

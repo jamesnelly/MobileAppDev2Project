@@ -53,7 +53,7 @@ namespace Project.ViewModels
                 {
                     _SelectedTime = value;
                       MYTime = "You Selected : " + _SelectedTime.Name;
-                    //  Result = (Input * _SelectedCurrency.Rate);
+                      Result = (Input * _SelectedTime.Rate);
                 }
             }
         }
@@ -70,6 +70,44 @@ namespace Project.ViewModels
                     OnPropertyChanged();
                 }
             }
+        }
+
+        double input;
+        public double Input
+        {
+            get { return input; }
+            set
+            {
+                // input = value;
+                if (input == value)
+
+                    return;
+                input = value;
+                OnPropertyChanged(nameof(Input));
+                OnPropertyChanged(nameof(Result));
+
+                // PropertyChanged(this, new PropertyChangedEventArgs("Input"));
+                //PropertyChanged(this, new PropertyChangedEventArgs("Result"));
+            }
+        }
+
+        double result;
+        public double Result
+        {
+            get { return result; }
+            set
+            {
+                if (result == value)
+
+                    return;
+                result = value;
+
+                OnPropertyChanged(nameof(Result));
+                OnPropertyChanged(nameof(Input));
+                // PropertyChanged(this, new PropertyChangedEventArgs("Result"));
+                // PropertyChanged(this, new PropertyChangedEventArgs("Input"));
+            }
+
         }
     }
 }

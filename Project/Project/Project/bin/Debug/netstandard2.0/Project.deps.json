@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "77ac45fa75810ef28ecf58b94804c46f567cccb4"
+    "signature": "137f5cd46458f6517ab7348aa2d3d17065796694"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,10 +10,23 @@
       "Project/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "kphillpotts.Lamp.Plugin": "1.0.0.1"
         },
         "runtime": {
           "Project.dll": {}
+        }
+      },
+      "kphillpotts.Lamp.Plugin/1.0.0.1": {
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Lamp.Plugin.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.1",
+            "fileVersion": "1.0.0.1"
+          },
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Lamp.Plugin.dll": {
+            "assemblyVersion": "1.0.0.1",
+            "fileVersion": "1.0.0.1"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -45,6 +58,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "kphillpotts.Lamp.Plugin/1.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o0oDL3zT9UawrG/VGSndZe2EmW4+NZoZOl9HmLwXxEjg15J7+EvxVJwNMH4jmfjHktPIVHm+UyCEew2UGGZdJQ==",
+      "path": "kphillpotts.lamp.plugin/1.0.0.1",
+      "hashPath": "kphillpotts.lamp.plugin.1.0.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

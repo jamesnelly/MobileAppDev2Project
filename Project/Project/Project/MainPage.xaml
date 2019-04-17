@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Project"
-             x:Class="Project.MainPage">
+             x:Class="Project.MainPage" Title="Unit Converter">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -14,22 +14,23 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <!--  add elements on the grid  -->
-        <Label Text="Best Unit Converter" HorizontalOptions="Center" Grid.Row="0" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
 
         <StackLayout>
-            <Button x:Name="yurt" Text="Home" HorizontalOptions="Start" Grid.Row="1"  FontSize="20"  BorderRadius="20"  Margin="80,0,40,0" BackgroundColor="DarkOrange"/>
+            <Button Text="Home" HorizontalOptions="Center" Grid.Row="1"  FontSize="20"  BorderRadius="20"  Margin="50,30,40,0" BackgroundColor="DarkOrange" WidthRequest="150"/>
             <StackLayout>
 
+                <Button x:Name="money" Text="Money Converter" TextColor="White" HorizontalOptions="Center" Grid.Row="1" Grid.Column="0" Clicked="Money_Clicked" BackgroundColor="Black"  WidthRequest="200"/>
 
-                <Button x:Name="money" Text="Money Converter" HorizontalOptions="Center" Grid.Row="1" Clicked="Money_Clicked" />
+                <Button x:Name="time" Text="Time Converter" TextColor="White" HorizontalOptions="Center" Grid.Row="2" Grid.Column="0" Clicked="Time_Clicked" WidthRequest="200" BackgroundColor="Black" />
 
-                <Button x:Name="time" Text="Time Converter" HorizontalOptions="Center" Grid.Row="2" Clicked="Time_Clicked" />
+                <Button x:Name="speed" Text="Speed Converter" TextColor="White" HorizontalOptions="Center" Grid.Row="3" Clicked="Speed_Clicked" WidthRequest="200" BackgroundColor="Black" />
 
-                <Button x:Name="speed" Text="Speed Converter" HorizontalOptions="Center" Grid.Row="3" Clicked="Speed_Clicked" />
+                <Button x:Name="temperture" Text="Temperture Converter" TextColor="White" HorizontalOptions="Center" Grid.Row="4" Clicked="Temperture_Clicked" WidthRequest="200" BackgroundColor="Black"/>
 
-                <Button x:Name="temperture" Text="Temperture Converter" HorizontalOptions="Center" Grid.Row="4" Clicked="Temperture_Clicked"/>
-
-                <Button x:Name="distance" Text="Distance Converter" HorizontalOptions="Center" Grid.Row="5" Clicked="Distance_Clicked" />
+                <Button x:Name="Torch" Text="Torch" TextColor="White" HorizontalOptions="Center" Grid.Row="5" Clicked="Torch_Clicked" WidthRequest="200" BackgroundColor="Black" />
 
             </StackLayout>
         </StackLayout>

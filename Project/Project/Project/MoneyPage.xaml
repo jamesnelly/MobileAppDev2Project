@@ -5,12 +5,14 @@
              Title="                        Money Conversion">
     
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Gray">
+        <StackLayout BackgroundColor="#C82A17">
             <Grid VerticalOptions="CenterAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition />
                     <RowDefinition />
                     <RowDefinition Height="30"/>
+                    <RowDefinition />
+                    <RowDefinition />
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
@@ -19,16 +21,17 @@
                 
                 <Picker x:Name="CurrencyPicker" Title="Choose Curreny to convert" 
                             HorizontalOptions="Center" ItemsSource="{Binding CurrencyList}" ItemDisplayBinding="{Binding Name}"
-                            SelectedItem="{Binding SelectedCurency}" Grid.Row="0" Grid.Column="0" BackgroundColor="Red" FontSize="15"/>
+                            SelectedItem="{Binding SelectedCurency}" Grid.Row="0" Grid.Column="0" BackgroundColor="Yellow" FontSize="15"/>
 
 
-                <Label Text="{Binding MYCurency}" TextColor="DarkBlue" HorizontalOptions="Start" Grid.Row="1" Grid.Column="0" BackgroundColor="Gray" Margin="10,25,10,25"/>
-
-
+                <Label Text="{Binding MYCurency}" TextColor="Yellow" HorizontalOptions="Center" Grid.Row="1" Grid.Column="0"  Margin="10,25,10,25" FontAttributes="Bold"/>
                 <Entry Text="{Binding Input}" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" WidthRequest="200" Margin="15,0,0,0"/>
-                <Label Text="{Binding DisplayInput}" Grid.Row="1" Grid.Column="0" HorizontalOptions="End" WidthRequest="200" Margin="15,0,0,0"/>
                 <Entry Text="{Binding Result}" Grid.Row="2" Grid.Column="0" HorizontalOptions="End" WidthRequest="200" Margin="0,0,15,0"/>
-                <Label Text="{Binding DisplayResult}" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" WidthRequest="200" Margin="15,0,0,0"/>
+
+                <Label Text="(1) Enter a Number First" TextColor="Yellow" HorizontalOptions="Center" Grid.Row="3" Grid.Column="0" Margin="10,10,10,25" FontAttributes="Bold"/>
+                <Label Text="(2) Then choose a Currency to convert" TextColor="Yellow" HorizontalOptions="Center" Grid.Row="4" Grid.Column="0" Margin="10,10,10,25" FontAttributes="Bold"/>
+
+                
 
             </Grid>
             </StackLayout>
