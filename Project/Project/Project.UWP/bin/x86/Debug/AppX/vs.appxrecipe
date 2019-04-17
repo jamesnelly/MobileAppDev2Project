@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>335AACE4D313FACD012B95EE395BA895275B2A1B8552D0C0CC7AD10602A4D144</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>CD76646AD6AC8478A21BE7765873BD6788273B021344761CED8456E5783637B5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6ae475fb-709c-4ac4-bf87-29aa75eccc55_1.0.0.0_x86__fs8qzcp0q8px0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6ae475fb-709c-4ac4-bf87-29aa75eccc55_fs8qzcp0q8px0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6ae475fb-709c-4ac4-bf87-29aa75eccc55</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-17T21:07:17.121</Modified>
+      <Modified>2019-04-17T21:19:59.366</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\Project.UWP.exe">
       <PackagePath>entrypoint\Project.UWP.exe</PackagePath>
-      <Modified>2019-04-17T21:07:14.824</Modified>
+      <Modified>2019-04-17T21:19:55.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\james\.nuget\packages\kphillpotts.lamp.plugin\1.0.0.1\lib\win8\Lamp.Plugin.Abstractions.dll">
       <PackagePath>Lamp.Plugin.Abstractions.dll</PackagePath>
@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project\bin\Debug\netstandard2.0\Project.dll">
       <PackagePath>Project.dll</PackagePath>
-      <Modified>2019-04-17T21:07:02.420</Modified>
+      <Modified>2019-04-17T21:19:46.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -867,11 +867,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-17T21:07:14.030</Modified>
+      <Modified>2019-04-17T21:19:55.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-17T21:07:14.030</Modified>
+      <Modified>2019-04-17T21:19:55.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -883,11 +883,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-17T11:45:28.410</Modified>
+      <Modified>2019-04-17T21:19:58.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.UWP\bin\x86\Debug\Core\Project.UWP.exe">
       <PackagePath>Project.UWP.exe</PackagePath>
-      <Modified>2019-04-17T21:07:17.111</Modified>
+      <Modified>2019-04-17T21:19:59.357</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
