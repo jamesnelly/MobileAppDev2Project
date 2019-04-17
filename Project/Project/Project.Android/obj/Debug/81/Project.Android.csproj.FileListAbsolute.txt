@@ -108,6 +108,8 @@ C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.A
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project\bin\Debug\netstandard2.0\Project.dll
+C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\bin\Debug\Project.dll.mdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Lamp.Plugin.Abstractions.dll.mdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Lamp.Plugin.dll.mdb
 C:\Users\james\Desktop\AppDevPro2\MobileAppDev2Project\Project\Project\Project.Android\obj\Debug\81\linksrc\Project.dll.mdb

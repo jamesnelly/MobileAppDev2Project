@@ -18,22 +18,29 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <StackLayout>
-            <Button Text="Home" HorizontalOptions="Center" Grid.Row="1"  FontSize="20"  BorderRadius="20"  Margin="50,30,40,0" BackgroundColor="DarkOrange" WidthRequest="150"/>
-            <StackLayout>
+        <StackLayout BackgroundColor="#bf360c">
+            <Button Text="Home" HorizontalOptions="Center" Grid.Row="0"  FontSize="20"  BorderRadius="20"  Margin="20,5,40,0" BackgroundColor="white" WidthRequest="150"/>
 
-                <Button x:Name="money" Text="Money Converter" TextColor="White" HorizontalOptions="Center" Grid.Row="1" Grid.Column="0" Clicked="Money_Clicked" BackgroundColor="Black"  WidthRequest="200"/>
 
-                <Button x:Name="time" Text="Time Converter" TextColor="White" HorizontalOptions="Center" Grid.Row="2" Grid.Column="0" Clicked="Time_Clicked" WidthRequest="200" BackgroundColor="Black" />
+            <StackLayout BackgroundColor="#ffe082">
 
-                <Button x:Name="speed" Text="Speed Converter" TextColor="White" HorizontalOptions="Center" Grid.Row="3" Clicked="Speed_Clicked" WidthRequest="200" BackgroundColor="Black" />
+                <Button x:Name="money" Text="Money Converter" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" Margin="20,50,40,0" 
+                        Grid.Row="1" Grid.Column="0" Clicked="Money_Clicked" BackgroundColor="White"  WidthRequest="200"  BorderRadius="10"/>
 
-                <Button x:Name="temperture" Text="Temperture Converter" TextColor="White" HorizontalOptions="Center" Grid.Row="4" Clicked="Temperture_Clicked" WidthRequest="200" BackgroundColor="Black"/>
+                <Button x:Name="time" Text="Time Converter" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" Margin="20,50,40,0" 
+                        Grid.Row="2" Grid.Column="0" Clicked="Time_Clicked" WidthRequest="200"  BackgroundColor="White" BorderRadius="10"/>
 
-                <Button x:Name="Torch" Text="Torch" TextColor="White" HorizontalOptions="Center" Grid.Row="5" Clicked="Torch_Clicked" WidthRequest="200" BackgroundColor="Black" />
+                <Button x:Name="speed" Text="Speed Converter" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" Margin="20,50,40,0" 
+                        Grid.Row="3" Clicked="Speed_Clicked" WidthRequest="200"  BackgroundColor="White" BorderRadius="10" />
 
+                <Button x:Name="temperture" Text="Temperture Converter" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" Margin="20,50,40,0" 
+                        Grid.Row="4" Clicked="Temperture_Clicked" WidthRequest="200"  BackgroundColor="White" BorderRadius="10"/>
+
+                <Button x:Name="Torch" Text="Torch" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" 
+                        Grid.Row="5"  Margin="20,60,40,40" Clicked="Torch_Clicked" WidthRequest="200"  BackgroundColor="White"  BorderRadius="10"/>
             </StackLayout>
         </StackLayout>
+        
     </Grid>
 
 </ContentPage>

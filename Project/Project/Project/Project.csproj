@@ -10,14 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\road.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Images\road.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="kphillpotts.Lamp.Plugin" Version="1.0.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
@@ -38,5 +30,9 @@
     <EmbeddedResource Update="Torch.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
 </Project>
