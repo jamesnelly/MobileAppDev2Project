@@ -34,8 +34,8 @@ namespace Project.ViewModels
         {
             var times = new List<Time>()
         {
-            new Time(){ID = 1, Name="Second's To Minutes",Rate = 0.0166667 },
-            new Time(){ID = 2, Name="Minutes To Hour's",Rate = 0.0166667 },
+            new Time(){ID = 1, Name="Second's To Minutes",Rate = 0.01666667 },
+            new Time(){ID = 2, Name="Minutes To Hour's",Rate = 0.01666667 },
             new Time(){ID = 3, Name="Hour's To Days",Rate = 0.0416667 },
             new Time(){ID = 4, Name="Days's To Week",Rate = 0.142857 },
             new Time(){ID = 5, Name="Week's To Years",Rate = 0.0191781 }
@@ -54,6 +54,7 @@ namespace Project.ViewModels
                     _SelectedTime = value;
                       MYTime = "You Selected : " + _SelectedTime.Name;
                       Result = (Input * _SelectedTime.Rate);
+                       
                 }
             }
         }

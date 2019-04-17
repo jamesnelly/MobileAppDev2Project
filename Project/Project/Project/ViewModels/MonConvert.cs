@@ -107,14 +107,14 @@ namespace Project
         {
             var currencies = new List<Currency>()
         {
-            new Currency(){ID = 1, Name="Euro To Pound",Rate = 0.85 },
-            new Currency(){ID = 2, Name="Euro To US Dollar",Rate = 1.12 },
-            new Currency(){ID = 3, Name="Euro To Yen",Rate = 125.50 },
-            new Currency(){ID = 4, Name="Pound To Euro",Rate = 1.16 },
+            new Currency(){ID = 1, Name="Euro To Pound",Rate = 0.87 },
+            new Currency(){ID = 2, Name="Euro To US Dollar",Rate = 1.13 },
+            new Currency(){ID = 3, Name="Euro To Yen",Rate = 126.58 },
+            new Currency(){ID = 4, Name="Pound To Euro",Rate = 1.15 },
             new Currency(){ID = 5, Name="Pound To US Dollar",Rate = 1.30 },
-            new Currency(){ID = 6, Name="Pound To Yen",Rate = 146.05},
-            new Currency(){ID = 7, Name="US Dollar To Euro",Rate = 0.89 },
-            new Currency(){ID = 8, Name="US Dollar To Yen",Rate = 111.99 },
+            new Currency(){ID = 6, Name="Pound To Yen",Rate = 146.15},
+            new Currency(){ID = 7, Name="US Dollar To Euro",Rate = 0.88 },
+            new Currency(){ID = 8, Name="US Dollar To Yen",Rate = 112.06 },
             new Currency(){ID = 9, Name="US Dollar To Pound",Rate = 0.77 },
         };
             return currencies;

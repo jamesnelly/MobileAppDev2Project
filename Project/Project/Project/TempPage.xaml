@@ -18,13 +18,13 @@
                 </Grid.ColumnDefinitions>
 
                 <Label Text="Celcius" Grid.Row="0" HorizontalOptions="Start" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
-                <Label Text="Farhenheit" Grid.Row="0" HorizontalOptions="Center" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
+                <Label Text="Fahrenheit" Grid.Row="0" HorizontalOptions="Center" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
 
                 <Entry Text="{Binding celtofar}"  BackgroundColor="White" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start"  WidthRequest="100" Margin="120,0,0,0"/>
                 <Label Text="{Binding celTofarAnswer}"  BackgroundColor="#ffff00"  Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" WidthRequest="100" Margin="120,0,0,0" />
 
 
-                <Label Text="Farhenheit" Grid.Row="2" HorizontalOptions="Start" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
+                <Label Text="Fahrenheit" Grid.Row="2" HorizontalOptions="Start" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
                 <Label Text="Celcius's" Grid.Row="2" HorizontalOptions="Center" Margin="120,10,0,10" TextColor="DarkOrange" FontAttributes="Bold"/>
 
                 <Entry Text="{Binding fartocel}"  BackgroundColor="White" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start"  WidthRequest="100" Margin="120,0,0,0"/>
